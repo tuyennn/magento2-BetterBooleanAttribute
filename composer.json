@@ -1,6 +1,6 @@
 {
     "name": "ghoster/better-boolean-attribute",
-    "description": "",
+    "description": "Change default look of boolean attribute Magento 2 frontend: Yes - No to ✔️ - ❌",
     "require": {
         "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.2.0",
         "magento/magento-composer-installer": "*"
