@@ -1,0 +1,31 @@
+.boolean {
+    td, a, span.sign {
+        &:before {
+            position: absolute;
+            margin-left: 0;
+            font-weight: bold;
+        }
+
+        &.tick:before {
+            content: "\2713";
+            color: darkgreen;
+        }
+
+        &.cross:before {
+            content: "\2717";
+            color: crimson;
+        }
+    }
+}
+
+.filter-options-content {
+    .boolean {
+        a {
+            span {
+                &.count {
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+}
