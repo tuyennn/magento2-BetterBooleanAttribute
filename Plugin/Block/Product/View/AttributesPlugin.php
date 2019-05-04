@@ -38,4 +38,19 @@ class AttributesPlugin
 
         return $data;
     }
+
+    /**
+     * Force set module template for attribute info view due custom theme
+     * @param ProductViewAttributes $subject
+     * @param $result
+     * @return string
+     */
+    public function afterGetTemplate(
+        ProductViewAttributes $subject,
+        $result
+    ) {
+        $result = 'GhoSter_BetterBooleanAttribute::product/view/attributes.phtml';
+        return $result;
+    }
+
 }
