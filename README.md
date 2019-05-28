@@ -8,7 +8,7 @@ Yes - No to ✔️ - ❌
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c9ba8265e00142749cda3ae37bcef16d)](https://www.codacy.com/app/GhoSterInc/BetterBooleanAttribute?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tuyennn/BetterBooleanAttribute&amp;utm_campaign=Badge_Grade)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/thinghost)
+[![Build Status](https://travis-ci.org/tuyennn/BetterBooleanAttribute.svg?branch=master)](https://travis-ci.org/tuyennn/BetterBooleanAttribute)[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/thinghost)
 ![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-green.svg)
 
 
