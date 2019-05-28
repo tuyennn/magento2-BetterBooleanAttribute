@@ -6,9 +6,8 @@ php:
   - 7.1
 
 before_install:
-  - composer config -g http-basic.repo.magento.com $MAGE_PUBLICKEY $MAGE_PRIVATEKEY
-  - composer require --dev magento/magento-coding-standard
-  - composer install
+  - composer create-project magento/magento-coding-standard --stability=dev magento-coding-standard
+  - cd magento-coding-standard
 
 script:
-  - vendor/bin/phpcs --ignore=./vendor/*,./magento-coding-standard/*,./Test/* --standard=Magento2 --extensions=php,phtml,js .
+  - vendor/bin/phpcs --ignore=../magento-coding-standard/* --standard=Magento2 --extensions=php,phtml,js ../.
