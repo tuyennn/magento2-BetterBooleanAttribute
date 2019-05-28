@@ -7,7 +7,7 @@ php:
 
 before_install:
   - composer config -g http-basic.repo.magento.com $MAGE_PUBLICKEY $MAGE_PRIVATEKEY
-  - composer create-project magento/magento-coding-standard --stability=dev magento-coding-standard
+  - composer require --dev magento/magento-coding-standard
   - composer install
 
 script:
