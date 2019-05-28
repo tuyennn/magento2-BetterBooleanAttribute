@@ -52,5 +52,4 @@ class AttributesPlugin
         $result = 'GhoSter_BetterBooleanAttribute::product/view/attributes.phtml';
         return $result;
     }
-
 }

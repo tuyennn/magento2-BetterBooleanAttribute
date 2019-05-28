@@ -19,7 +19,6 @@ class Data extends AbstractHelper
     public function isFilterBooleanAttribute($filterItem)
     {
         try {
-
             $filter = $filterItem->getFilter();
             if ($attributeModel = $filter->getAttributeModel()) {
                 return $attributeModel->getSourceModel() == SourceBoolean::class;
@@ -28,7 +27,6 @@ class Data extends AbstractHelper
         } catch (\Exception $e) {
             return false;
         }
-
         return false;
     }
 
@@ -40,5 +38,4 @@ class Data extends AbstractHelper
     {
         return $attribute->getSourceModel() == SourceBoolean::class;
     }
-
 }
